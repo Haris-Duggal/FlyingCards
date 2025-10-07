@@ -3,10 +3,10 @@ pipeline {
 
     stages {
         stage('Clone') {
-            steps {
-                git 'https://github.com/Yacer514/hello-web.git'
-            }
-        }
+    steps {
+        git url: 'https://github.com/Yacer514/hello-web.git', branch: 'main'
+    }
+}
 
         stage('Build Docker Image') {
             steps {
