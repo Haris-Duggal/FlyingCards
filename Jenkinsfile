@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone') {
     steps {
-        git url: 'https://github.com/Yacer514/hello-web.git', branch: 'main'
+        git url: 'https://github.com/Haris-Duggal/FlyingCards', branch: 'main'
     }
 }
 
